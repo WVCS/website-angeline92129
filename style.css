@@ -1,3 +1,37 @@
-body {
+@charset "utf-8";
+body{
+	background-color: #F1B5E6
+}
 
+img{
+	width: 1000px;
+	
+}
+img:hover {
+	border: dotted 5px white;
+	width: 750 px;
+	border-radius: 80%
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #B48EAE;
 }
