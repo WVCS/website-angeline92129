@@ -1,17 +1,26 @@
 @charset "utf-8";
+
 body{
 	background-color: #F1B5E6
 }
 
-img{
-	width: 1000px;
+img {
+	width: 50%;
+}
+
+img:hover {
+
+	border: dotted 7px white;
+	width: 400px;
+	border-radius: 80%;
 	
 }
-img:hover {
-	border: dotted 5px white;
-	width: 750 px;
-	border-radius: 80%
+
+h1 {
+	font-family: "Copperplate", "Courier New", monospace;
+	box-shadow: 0 0 25px 10px #70586B; 
 }
+
 ul {
   list-style-type: none;
   margin: 0;
